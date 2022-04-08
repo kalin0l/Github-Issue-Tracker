@@ -1,0 +1,74 @@
+.issue-section {
+    background-color: white;
+    width: 50%;
+    height: 77%;
+    border-radius: 10px;
+    position: fixed;
+    top: 15%;
+    right: 15%;
+    overflow: auto;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-left: 10px;
+    }
+    .issues {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        background-image: linear-gradient(to top left, #ffb003, #ffcb03);
+        border-radius: 10px;
+        padding: 6px;
+        opacity: 0.7;
+
+        .user-details {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            text-decoration: none;
+            color: #000;
+        }
+        span {
+            margin-right: 10px;
+        }
+    }
+   
+}
+.pagination-btns {
+    position: fixed;
+    bottom: 2rem;
+    left: 52.5%;
+    .prev-btn,.next-btn {
+        background-color: aqua;
+        color: white;
+        border-radius: 5px;
+        letter-spacing: 2px;
+        cursor: pointer;
+        border: none;
+        padding: 8px;
+        font-weight: bold;
+        font-size: 20px;
+        margin: 0 10px;
+    }
+    .pag-btn {
+        background-color: lawngreen;
+        color: white;
+        border-radius: 5px;
+        letter-spacing: 2px;
+        cursor: pointer;
+        border: none;
+        padding: 8px;
+        font-weight: bold;
+        font-size: 20px;
+        margin: 0 5px;
+    }
+    .active {
+        background-color: darkgreen;
+    }
+}

@@ -1,0 +1,41 @@
+form {
+  max-width: 360px;
+  margin: 10rem 10rem;
+}
+
+form .error {
+  border: 0.3px solid orangered;
+}
+
+form .error-msg {
+  color: orangered;
+}
+
+form label {
+  display: block;
+  margin: 30px auto;
+}
+
+form span {
+  display: block;
+}
+
+form input {
+  font-size: 1em;
+  width: 100%;
+  padding: 8px 6px;
+  color: #777;
+}
+
+form .btn {
+  background-color: aqua;
+  color: white;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  border: none;
+  padding: 8px;
+  font-weight: bold;
+  font-size: 20px;
+}
+/*# sourceMappingURL=Form.css.map */

@@ -1,0 +1,18 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-image: -webkit-gradient(linear, right bottom, left top, from(#ffb003), to(#ffcb03));
+  background-image: linear-gradient(to top left, #ffb003, #ffcb03);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=Footer.css.map */

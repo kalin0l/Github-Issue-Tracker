@@ -1,0 +1,99 @@
+.issue-section {
+  background-color: white;
+  width: 50%;
+  height: 77%;
+  border-radius: 10px;
+  position: fixed;
+  top: 15%;
+  right: 15%;
+  overflow: auto;
+  overflow-x: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.issue-section img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.issue-section .issues {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  background-image: -webkit-gradient(linear, right bottom, left top, from(#ffb003), to(#ffcb03));
+  background-image: linear-gradient(to top left, #ffb003, #ffcb03);
+  border-radius: 10px;
+  padding: 6px;
+  opacity: 0.7;
+}
+
+.issue-section .issues .user-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+
+.issue-section .issues span {
+  margin-right: 10px;
+}
+
+.pagination-btns {
+  position: fixed;
+  bottom: 2rem;
+  left: 52.5%;
+}
+
+.pagination-btns .prev-btn, .pagination-btns .next-btn {
+  background-color: aqua;
+  color: white;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  border: none;
+  padding: 8px;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+.pagination-btns .pag-btn {
+  background-color: lawngreen;
+  color: white;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  border: none;
+  padding: 8px;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0 5px;
+}
+
+.pagination-btns .active {
+  background-color: darkgreen;
+}
+/*# sourceMappingURL=IssueSection.css.map */

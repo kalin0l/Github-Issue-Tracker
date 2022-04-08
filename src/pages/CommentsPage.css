@@ -1,0 +1,97 @@
+.comments-section {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f1f5f8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.comments-section .comments {
+  overflow-y: auto;
+  width: 50%;
+  height: 50%;
+  background-color: #fff;
+  border-radius: 5px;
+  position: relative;
+}
+
+.comments-section .comments h2 {
+  position: absolute;
+  left: 32.5%;
+  top: 35%;
+}
+
+.comments-section .comments .comments-container {
+  border: 1px solid black;
+  border-radius: 6px;
+  margin-bottom: 5px;
+}
+
+.comments-section .comments .user-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.comments-section .comments .user-container img {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+.comments-section .comments .user-container .user {
+  border-bottom: 1px solid black;
+  background-color: #f6f8fa;
+  opacity: 0.8;
+  border-radius: 6px;
+  padding: 6px;
+  font-weight: bold;
+  margin-left: 5px;
+  width: 100%;
+}
+
+.comments-section .comments p {
+  margin-left: 30px;
+}
+
+.comments-section .comments .reactions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 5px;
+}
+
+.comments-section .comments .reactions .thumbs-up {
+  color: #9c9c2d;
+}
+
+.comments-section .comments .reactions div {
+  margin-left: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.comments-section .comments .reactions div span {
+  border: 0.2px solid black;
+  padding: 0 2px;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=CommentsPage.css.map */
