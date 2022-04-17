@@ -7,4 +7,8 @@
 # Type in the console git clone and paste the HTTPS url
 # Open the project via VS Code
 # Open the terminal in VS Code
+<<<<<<< HEAD
 # Type the command npm install
+=======
+# Type the command npm install
+>>>>>>> master
